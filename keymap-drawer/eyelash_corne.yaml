@@ -49,55 +49,6 @@ layers:
   - $$mdi:keyboard-space$$
   - NUM
   - $$mdi:apple-keyboard-control$$
-  NUM:
-  - {t: '`', s: '~'}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - {t: '5', s: '%'}
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - '6'
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - '~'
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - {t: '`', s: '~'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '=', s: +}
-  - {t: '-', s: _}
-  - +
-  - '{'
-  - '}'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: ;, s: ':'}
-  - ':'
-  - {t: \, s: '|'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
   FN:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
@@ -146,6 +97,55 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  NUM:
+  - {t: '`', s: '~'}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - {t: '5', s: '%'}
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - '6'
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - '~'
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - {t: '`', s: '~'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '=', s: +}
+  - {t: '-', s: _}
+  - +
+  - '{'
+  - '}'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: ;, s: ':'}
+  - ':'
+  - {t: \, s: '|'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [23, 24]
