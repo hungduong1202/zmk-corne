@@ -140,7 +140,7 @@ layers:
   - HOME
   - END
   - INS
-  - AL SCREENSAVER
+  - $$mdi:lock$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
