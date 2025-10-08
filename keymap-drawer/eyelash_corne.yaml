@@ -45,11 +45,11 @@ layers:
   - '&td0'
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-return$$', h: NUMBER}
+  - {t: '$$mdi:keyboard-return$$', h: FN}
   - $$mdi:keyboard-space$$
-  - SYMBOL
+  - NUM
   - $$mdi:apple-keyboard-option$$
-  SYMBOL:
+  NUM:
   - {t: '`', s: '~'}
   - '1'
   - '2'
@@ -98,7 +98,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  NUMBER:
+  FN:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
