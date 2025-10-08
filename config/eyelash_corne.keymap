@@ -33,6 +33,8 @@
             display-name = "Shift/Caps Lock Tap Dance";
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CLCK>;
+
+            tapping-term-ms = <60>;
         };
     };
 
