@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - $$mdi:pan-up$$
+  - $$mdi:pan-down$$
   - Y
   - U
   - I
@@ -20,9 +20,9 @@ layers:
   - D
   - F
   - G
-  - $$mdi:pan-left$$
-  - '&mac_lock_screen'
   - $$mdi:pan-right$$
+  - '&mac_lock_screen'
+  - $$mdi:pan-left$$
   - H
   - J
   - K
@@ -36,7 +36,7 @@ layers:
   - V
   - B
   - $$mdi:volume-off$$
-  - $$mdi:pan-down$$
+  - $$mdi:pan-up$$
   - N
   - M
   - {t: ',', s: <}
